@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/university.jpg);
+    background-position: center;
+    background-size: cover;
+    
+
+}
+.logo{
+    height: 17vh;
+    width: 100%;
+    background: skyblue;
+    display: flex;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    margin: 10px 5px;
+    flex-basis: 5%;
+}
+.logo h1{
+    font-size: 35px;
+    color: red;
+}
+span{
+    color: green;
+    font-size: 26px;
+    margin-left: 20px;
+}
+.common-btn{
+    margin-top: 28px;
+}
+ button{
+    padding: 12px 30px;
+   font-size: 20px;
+   margin-left: 800px;
+   background: crimson;
+   border: none;
+   transition: 0.5s;
+   
+}
+button:hover{
+    background: whitesmoke;
+    color: red;
+}
+.home{
+    height: 17vh;
+    width: 100%;
+    background: red;
+    
+}
+.home ul{
+    width: 85%;
+    margin: auto
+   
+}
+.home ul li{
+    list-style: none;
+   
+    position: relative;
+    display: inline-block;
+    margin: 0 15px;
+    margin: 25px 30px;
+    
+}
+.home ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin: 15px 0;
+   
+}
+.home ul li a::after{
+    content: "";
+    width:0%;
+    background: black;
+    position: absolute;
+    height: 2px;
+    display: block;
+    transition: 0.5s;
+}
+.home ul li a:hover::after{
+    width: 100%;
+    
+}
+.explore{
+    
+    margin-top: 5%;
+    
+    height: 55vh;
+    width: 85%;
+    position: relative;
+    padding: 30px 40px;
+    
+}
+.explore img{
+    display: block;
+    width: 30%;
+    height: 65%;
+    box-shadow: 7px 7px 20px green;
+    margin-left: 5%;
+    transition: 0.5s;
+}
+.explore img:hover{
+    transform: translateY(-25px);
+}
+.explore h3{
+    margin-left: 40%;
+    color: white;
+    font-size: 35px;
+    word-spacing: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+position: absolute;
+top: 65px;
+}
+.explore h1{
+    margin-left: 40%;
+    color: red;
+    font-size: 40px;
+    word-spacing: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+top: 105px;
+}
+.explore p{
+    color: white;
+    font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    word-spacing: 3px;
+    line-height: 22px;
+    margin-top: 10px;
+    margin-left: 40%;
+    position: absolute;
+    top: 150px;
+}
+.course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 60px;
+    background: rgb(224, 83, 83);
+   
+
+}
+.course h1{
+    font-size: 42px;
+    font-weight: 600;
+}
+.course p{
+    color: black;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row{
+    margin: 5%;
+    display: flex;
+    line-height: 10px;
+    justify-content: space-between;
+}
+.course-col{
+    flex-basis: 31%;
+    background-color: skyblue;
+    border-radius: 12px;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+    padding: 28px 12px; 
+    box-shadow:7px 7px 15px black;
+    
+
+}
+.course-col h3{
+    font-size: 30px;
+}
+.course-col p{
+    font-size: 22px;
+    color: green;
+   margin: 10px 4px;
+   font-family: sans-serif;
+}
+
+
+ 
+
+
